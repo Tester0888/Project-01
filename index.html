@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harivara-Like Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="logo"><img src="Hari.png" alt="logo" style="width:60px;height: 60px;"></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Hari Har Puja</h1>
+            <p>Your one-stop solution for spiritual services.</p>
+            <a href="#services" class="cta-btn">Explore Services</a>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item" onclick="redirect_service1();">
+                <h3>Pujas</h3>
+            </div>
+            <div class="service-item" onclick="redirect_service2()">
+                <h3>Havans</h3>
+            </div>
+            <div class="service-item" onclick="redirect_service3()">
+                <h3>Jaaps</h3>
+            </div>
+         </div>
+         <div class="service-list">
+            <div class="service-item" onclick="redirect_service4()">
+                <h3>Paaths</h3>
+            </div>
+            <div class="service-item">
+                <h3>Bhajans & Chowki</h3>
+            </div>
+            <div class="service-item">
+                <h3>Festival Pujas</h3>
+            </div>
+            <div class="service-item">
+                <h3>Shanti Pujas</h3>
+            </div>
+            <div class="service-item">
+                <h3>Pitru Pujas</h3>
+            </div>
+            
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Our Reviews</h2>
+        <div class="testimonials-container">
+            <p>"Excellent service, highly recommended!" - Mr. Anand Pandey</p>
+            <p>"Professional priests and smooth bookings." - Mrs. Meena Mehra</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Hari Har Puja. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
